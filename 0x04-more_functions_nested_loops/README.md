@@ -1,1 +1,1 @@
-2. Collaboration is multiplication
+0. Multiple mains
