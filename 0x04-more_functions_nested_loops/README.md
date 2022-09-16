@@ -1,1 +1,1 @@
-6. The shortest distance between two points is a straight line
+5. Numbers constitute the only universal language
