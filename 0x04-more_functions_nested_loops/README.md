@@ -1,1 +1,1 @@
-7. I feel like I am diagonally parked in a parallel universe
+6. The shortest distance between two points is a straight line
