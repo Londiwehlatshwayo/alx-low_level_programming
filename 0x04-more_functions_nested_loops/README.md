@@ -1,1 +1,1 @@
-3. The numbers speak for themselves
+6. The shortest distance between two points is a straight line
