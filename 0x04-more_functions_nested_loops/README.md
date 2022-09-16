@@ -1,1 +1,1 @@
-5. Numbers constitute the only universal language
+3. The numbers speak for themselves
