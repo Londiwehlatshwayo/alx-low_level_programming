@@ -1,1 +1,1 @@
-9. strcpy
+11. Dont hate the hacker, hate the code
