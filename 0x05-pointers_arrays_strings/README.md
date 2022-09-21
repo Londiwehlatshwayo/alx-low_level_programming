@@ -1,1 +1,1 @@
-0. 98 Battery st
+9. strcpy
