@@ -1,1 +1,1 @@
-11. It is the addition of strangeness to beauty that constitutes the romantic character in art
+10. A dream doesnt become reality through magic; it takes sweat, determination and hard work
