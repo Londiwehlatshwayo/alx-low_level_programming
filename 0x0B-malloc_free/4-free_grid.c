@@ -1,28 +1,54 @@
 
 #include "main.h"
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * free_grid - 2 dimensional grid previously created by alloc_grid function.\
- * @grid: 2 dim. array to free
- * @height: input height (size)
- * Return: Free grid
+ * print_grid - prints a grid of integers
+ * @grid: the address of the two dimensional grid
+ * @width: width of the grid
+ * @height: height of the grid
+ *
+ * Return: Nothing.
  */
-
-void free_grid(int **grid, int height)
+void print_grid(int **grid, int width, int height)
 {
-	int bodex;
-	/* if grid is not equal to null and height is also not equal to 0*/
-	if (grid != NULL || height != 0)
+	int w;
+	int h;
+
+	h = 0;
+	while (h < height)
 	{
-		/for every bodex that is 0 and less than height increase height/
-		for (bodex = 0; bodex < height; bodex++)
+		w = 0;
+		while (w < width)
 		{
-			/free grid[bodex]/
-			free(grid[bodex]);
+			printf("%d ", grid[h][w]);
+			w++;
 		}
-		/free grid/
-		free(grid);
+		printf("\n");
+		h++;
 	}
+}
+
+/**
+ * main - check the code for ALX School students.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	int **grid;
+
+	grid = alloc_grid(6, 4);
+	if (grid == NULL)
+	{
+		return (1);
+	}
+	print_grid(grid, 6, 4);
+	printf("\n");
+	grid[0][3] = 98;
+	grid[3][4] = 402;
+	print_grid(grid, 6, 4);
+	free_grid(grid, 4);
+	return (0);
 }
